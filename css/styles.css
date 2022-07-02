@@ -982,8 +982,13 @@ color: rgba(117, 117, 117, 0.5);
   align-items: center;
 }
 .real-input:focus {
+  outline: none;
   border-color: var(--blue-color);
 }
 .real-input:focus + .modal-icon {
+  outline: none;
  fill: var(--blue-color);
+}
+.label{
+  outline: none;
 }
